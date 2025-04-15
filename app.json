@@ -26,6 +26,14 @@
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "webpack"
-    }
+    },
+    "plugins": [
+      [
+        "react-native-gesture-handler",
+        {
+          "enabled": true
+        }
+      ]
+    ]
   }
 }
